@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  * using Printf
  * Return always 0 (success)
