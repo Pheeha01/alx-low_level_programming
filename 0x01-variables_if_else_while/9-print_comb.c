@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
  * main - printing all possible combinations
- * using Putchar, need to study it
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int num;
+	int n;
 
-	for (num = 48; num < 58; num++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(num);
-		if (num != 57)
+		putchar(n);
+		if (n != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-	}
+	
+
 	putchar('\n');
 	return (0);
 }
