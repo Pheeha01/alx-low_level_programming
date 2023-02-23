@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - alphabets in 10 lines
+ * print_alphabet_x10 - alphabets in 10 lines
  * _putchar
  * Return: Always 0
  */
