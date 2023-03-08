@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strstr - Entry point
+ * _strpbrk - Entry point
  * @haystack: input
  * @needle: input
  * Return: Always 0 (Success)
  */
-char *_strstr(char *haystack, char *needle)
+char *_strpbrk(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
